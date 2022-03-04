@@ -4,8 +4,9 @@
  </head>
 
  <body>
-  <h1>Hello World!</h1>
-  <p><?php echo 'We are running PHP, version: ' . phpversion(); ?></p>
+ <h1>Hello World! Greetings from GitHub!</h1>
+        <img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png">
+        <p> <?php echo 'We are running PHP, version: ' . phpversion(); ?></p>
   <?
    $database ="main_db";
    $user = "user";
