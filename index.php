@@ -9,8 +9,8 @@
         <p> <?php echo 'We are running PHP, version: ' . phpversion(); ?></p>
   <?
    $database ="main_db";
-   $user = "user";
-   $password = "password";
+   $user = "user"; # "root"; #
+   $password = "password"; #"secret"; #
    $host = "mysql";
 
    $connection = new PDO("mysql:host={$host};dbname={$database};charset=utf8", $user, $password);
